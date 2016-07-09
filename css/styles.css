@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.red {
+  color: red;
+  text-align: right;
+}
+
+h4 {
+  background-color: #ffce99;
+  color: #d0834b;
+  padding: 8px;
+  margin: 0px;
+}
+
+body {
+  font-weight: bold;
+  font-family: helvetica;
+}
+
+p {
+  margin: 5px;
+}
+
+.animal{
+  width: 120px;
+  float: left;
+}
+
+img {
+  width: 100px;
+  border: 2px solid blue;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.row-animals {
+  display: block;
+  float: none;
+}
+
+.animal p {
+  color: blue;
+  text-align:center;
+  margin:0px;
+}
+.animal img + p {
+  color: green;
+  font-weight: normal;
+}
