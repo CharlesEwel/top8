@@ -25,11 +25,13 @@ body {
 
 p {
   margin: 5px;
+  float: none;
 }
 
 .animal{
   width: 120px;
   float: left;
+  margin:5px;
 }
 
 img {
@@ -39,10 +41,17 @@ img {
   margin-right: auto;
   display: block;
 }
+.footer{
+  display: block;
+  float: none;
+  width: 500px;
+}
 
 .row-animals {
   display: block;
   float: none;
+  clear: right;
+  width: 600px;
 }
 
 .animal p {
